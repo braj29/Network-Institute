@@ -3,6 +3,9 @@ from trial import Trial
 from multiprocessing import Process, Pipe
 from s3upload import Uploader
 import logging
+import os
+
+#os.add_dll_directory("c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface/ale_c.dll")
 
 ADDRESS = None # set desired IP for development 
 PORT = 5000 # if port is changed here it must also be changed in Dockerfile
@@ -17,15 +20,15 @@ def main():
     global ADDRESS
     global PORT
     global devEnv
-    # devEnv = True
-    # start_server = websockets.serve(handler, ADDRESS, PORT)
-    if len(sys.argv) > 1 and sys.argv[1] == 'dev':
-        start_server = websockets.serve(handler, ADDRESS, PORT)
-        devEnv = True
-    else:
-        ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-        ssl_context.load_cert_chain('fullchain.pem', keyfile='privkey.pem')
-        start_server = websockets.serve(handler, None, PORT, ssl=ssl_context)
+    devEnv = True
+    start_server = websockets.serve(handler, ADDRESS, PORT)
+    # if len(sys.argv) > 1 and sys.argv[1] == 'dev':
+    #     start_server = websockets.serve(handler, ADDRESS, PORT)
+    #     devEnv = True
+    # else:
+    #     ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    #     ssl_context.load_cert_chain('fullchain.pem', keyfile='privkey.pem')
+    #     start_server = websockets.serve(handler, None, PORT, ssl=ssl_context)
     asyncio.get_event_loop().run_until_complete(start_server)
     asyncio.get_event_loop().run_forever()
 

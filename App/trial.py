@@ -4,6 +4,10 @@ import _pickle as cPickle
 from PIL import Image
 from io import BytesIO
 from agent import Agent # this is the Agent/Environment compo provided by the researcher
+import os
+
+os.add_dll_directory('c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface')
+
 
 def load_config():
     logging.info('Loading Config in trial.py')
@@ -144,6 +148,7 @@ class Trial():
         Deals with allowable commands from user. To add other functionality
         add commands.
         '''
+        print(command)
         command = command.strip().lower()
         if command == 'start':
             self.play = True

@@ -286,6 +286,7 @@ class TamerAgent:
 
         error = r - self.w * cred_features
         self.w += (.01*error*cred_features)
+        print(self.w)
 
 
 # Original HIPPO Gym Agent
