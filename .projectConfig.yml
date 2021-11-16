@@ -1,0 +1,53 @@
+project:
+  awsSetup:
+    bucket: null
+    cpu: 2
+    memory: 10
+    region: null
+    rootDomain: null
+  events:
+    startServerStep: null
+    stopServerStep: null
+  id: null
+  live: true
+  maxRuntime: 60
+  name: null
+  researcher: null
+  ssl:
+    fullchain: SSL/fullchain.pem
+    privkey: SSL/privkey.pem
+    sslBucket: null
+  steps:
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    finalStep: null
+  teamMembers: null
+  useAWS: false
+trial:
+  actionBufferLifespan: 1
+  actionSpace:
+  - Accelerate to the Left
+  - Don't accelerate
+  - Accelerate to the Right
+  allowFrameRateChange: false
+  bucket: null
+  dataFile: episode
+  frameRateStepSize: 5
+  game: MountainCar-v0
+  maxEpisodes: 2
+  maxFrameRate: 60
+  minFrameRate: 1
+  projectId: null
+  s3upload: true
+  startingFrameRate: 30
+  ui:
+  - start
+  - stop
+  - pause
+  - reset
+  - good
+  - reallygood
+  - bad

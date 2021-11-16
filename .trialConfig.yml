@@ -1,0 +1,32 @@
+trial:
+  actionBufferLifespan: 1
+  actionSpace:
+  - noop
+  - up
+  - right
+  - left
+  - down
+  - upright
+  - upleft
+  - downright
+  - downleft
+  allowFrameRateChange: false
+  bucket: null
+  dataFile: episode
+  frameRateStepSize: 5
+  game: MsPacman-v0
+  maxEpisodes: 20
+  maxFrameRate: 60
+  minFrameRate: 1
+  projectId: null
+  s3upload: true
+  startingFrameRate: 30
+  ui:
+  - left
+  - right
+  - up
+  - down
+  - start
+  - stop
+  - pause
+  - reset
