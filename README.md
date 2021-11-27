@@ -1,4 +1,4 @@
-# Network Institute Project
+# TeachME
 #### What makes a Good Teacher?
 Modeling Inter-Individual Differences in Humans who Teach Agents Artificial agents (including chatbots, robots, game-playing agents, …) can make use of  interactions with human experts to acquire new skills in a flexible way. A variety of available  algorithms allow human experts to interactively teach agents optimal or near-optimal policies in  dynamic tasks. Depending on what the algorithm allows, the teaching signal can be one or a  combination of evaluative feedback, corrections, demonstrations, advice, etc. (Li et al., 2019,  Celemin et al., 2019, Ravichandar et al. 2020).
 
