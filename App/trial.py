@@ -4,9 +4,10 @@ import _pickle as cPickle
 from PIL import Image
 from io import BytesIO
 from agent import Agent # this is the Agent/Environment compo provided by the researcher
+#from ALPHA import
 import os
 
-os.add_dll_directory('c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface')
+#os.add_dll_directory('c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface')
 
 
 def load_config():

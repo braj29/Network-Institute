@@ -1,14 +1,17 @@
 trial:
   actionBufferLifespan: 1
   actionSpace:
-  - Accelerate to the Left
-  - Don't accelerate
-  - Accelerate to the Right
+  - NOOP
+  - FIRE
+  - RIGHT
+  - LEFT
+  - RIGHTFIRE
+  - LEFTFIRE
   allowFrameRateChange: false
   bucket: null
   dataFile: episode
   frameRateStepSize: 5
-  game: MountainCar-v0
+  game: PongNoFrameskip-v4
   maxEpisodes: 2
   maxFrameRate: 60
   minFrameRate: 1
