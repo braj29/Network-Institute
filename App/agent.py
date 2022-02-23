@@ -9,6 +9,19 @@ import time
 import numpy as np
 import itertools
 
+from gym import wrappers
+from gym.utils.play import play
+import griddly
+from griddly import GymWrapperFactory
+#import highway_env
+#from pettingzoo.mpe import simple_v2
+
+import griddly
+from griddly import gd
+
+
+
+#from gym.utils import play
 
 #This is the code for tile coding features
 basehash = hash
@@ -229,6 +242,7 @@ class TamerAgent:
             Returns:
             The first action the agent takes.
             """
+        print("State is", state)    
         position, velocity = state
         
         active_tiles=self.mctc.get_tiles(position, velocity)
@@ -307,7 +321,7 @@ class Agent():
     '''
     Use this class as a convenient place to store agent state.
     '''
-
+     
     def start(self, game:str):
         '''
         Starts an OpenAI gym environment.
@@ -319,14 +333,15 @@ class Agent():
             - env (Type: OpenAI gym Environment as returned by gym.make())
             Mandatory
         '''
-        self.tamer = True
+        self.tamer = False
         if self.tamer:
             np.random.seed(0)
             self.tamerAgent = TamerAgent()
-        self.env = gym.make(game)
+        #self.env = simple_v2.env()
+        self.env = gym.make(game, player_observer_type = gd.ObserverType.VECTOR, global_observer_type = gd.ObserverType.SPRITE_2D)
         return
 
-    def step(self, action, reward):
+    def step(self, action, reward, demo = False):
         '''
         Takes a game step.
         Caller:
@@ -338,7 +353,15 @@ class Agent():
             - envState (Type: dict containing all information to be recorded for future use)
               change contents of dict as desired, but return must be type dict.
         '''
-        if self.tamer:
+        print(action)
+        if demo == False:
+        #     self.tamer = False
+            obs, reward, done, info = self.env.step(self.env.action_space.sample())
+        
+        if demo == True:
+            obs, reward, done, info = self.env.step(action)
+        r = False    
+        if r == True:
             if self.tamerAgent.time_step == 0:
                 self.tamerAgent.agent_start(self.tamerAgent.first_state)
                 time.sleep(1.5)
@@ -352,15 +375,17 @@ class Agent():
                 updated = True
             else:
                 updated = False
-
+            
+            #print(self.tamerAgent.current_action)
             observation, reward, done, info = self.env.step(self.tamerAgent.current_action)
             action = self.tamerAgent.current_action
         else:
+            #print(action)
             observation, reward, done, info = self.env.step(action)
 
         envState = {'observation': observation, 'reward': reward, 'done': done, 'info': info, 'agentAction': action}
 
-        if self.tamer:
+        if self.tamer == True:
             self.tamerAgent.action_selection(observation)
             self.tamerAgent.experiences.append((self.tamerAgent.current_action, self.tamerAgent.current_tiles, time.time()))
         return envState
@@ -376,7 +401,7 @@ class Agent():
             - return from env.render('rgb_array') (Type: npArray)
               must return the unchanged rgb_array
         '''
-        return self.env.render('rgb_array')
+        return self.env.render('rgb_array', observer = "global")
 
     def reset(self):
         '''
@@ -405,4 +430,4 @@ class Agent():
             No Return
         '''
         self.env.close()
-
+        

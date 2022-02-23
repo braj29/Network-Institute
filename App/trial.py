@@ -3,9 +3,12 @@ import numpy, json, shortuuid, time, base64, yaml, logging
 import _pickle as cPickle
 from PIL import Image
 from io import BytesIO
-from agent import Agent # this is the Agent/Environment compo provided by the researcher
+#from agent import Agent # this is the Agent/Environment compo provided by the researcher
 #from ALPHA import
+#from ALPHA import *
+from agent_alpha import Agent
 import os
+import gym
 
 #os.add_dll_directory('c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface')
 
@@ -36,7 +39,8 @@ class Trial():
         self.projectId = self.config.get('projectId')
         self.filename = None
         self.path = None
-        self.reward = 'None'
+        self.human_feedback = 'None'
+        self.demo = False
 
         self.start()
         self.run()
@@ -149,9 +153,10 @@ class Trial():
         Deals with allowable commands from user. To add other functionality
         add commands.
         '''
-        print(command)
+        #print(command)
         command = command.strip().lower()
         if command == 'start':
+            self.agent.demo = False
             self.play = True
         elif command == 'stop':
             self.end()
@@ -167,8 +172,12 @@ class Trial():
             self.reward = 'reallygood'
         elif command == 'bad':
             self.reward = 'bad'
-        
-        
+        elif command == 'demonstrate':
+            #self.reset()
+            self.agent.demo = True
+            #self.agent.t = 0
+            #time.sleep(20)
+            #self.reset()
 
     def handle_framerate_change(self, change:str):
         '''
@@ -200,13 +209,15 @@ class Trial():
         Translates action to int and resets action buffer if action !=0
         '''
         action = action.strip().lower()
-        print(action)
+        #print(action)
         actionSpace = self.config.get('actionSpace')
+        #print(actionSpace)
         if action in actionSpace:
             actionCode = actionSpace.index(action)
         else:
             actionCode = 0
         self.humanAction = actionCode
+        
    
     def update_entry(self, update_dict:dict):
         '''
@@ -256,9 +267,12 @@ class Trial():
         Checks for DONE from Agent/Env
         '''
         #reward = "good"
-        envState = self.agent.step(self.humanAction, self.reward)
+        #print(self.humanAction)
+
+        envState = self.agent.step(self.humanAction, self.human_feedback)
         self.update_entry(envState)
         self.save_entry()
+        self.reward = "None"
         if envState['done']:
             self.reset()
 
@@ -302,3 +316,4 @@ class Trial():
         self.outfile = open(path, 'ab')
         self.filename = filename
         self.path = path
+        

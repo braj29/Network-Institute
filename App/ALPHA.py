@@ -124,6 +124,7 @@ def DPS(episodes,model = 0):
     for j in range(model):
         frame = env.reset()
         while(True):
+            env.render()
             end_f += 1
             state_tensor = q_agent.observe(frame) 
             sof -= 0.1
@@ -144,7 +145,7 @@ def DPS(episodes,model = 0):
         cnt=0
         all_cnt=0
         while(True):
-            #env.render()
+            env.render()
             end_f+=1
             
             epsilon = epsilon_by_frame(end_f)
@@ -216,7 +217,7 @@ def DPS(episodes,model = 0):
                 fb_loss=f_agent.learn_from_experience(batch_size)
             if end_f % log_interval == 0:
                 f_agent.DQN_target.load_state_dict(f_agent.DQN.state_dict())
-            #F learning
+            #F learning 
 
     
 

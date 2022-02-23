@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24599f4-a712-4f0a-adcc-d0c3dfdfcd9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App/xvfb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/App/xvfb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HIPPO_Gym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HIPPO_Gym.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.projectConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.projectConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/.trialConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/App/.trialConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/ALPHA.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/ALPHA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/DQN.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/DQN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/communicator.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/communicator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/rf_100_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App/rf_100_A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/rf_10_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App/rf_10_A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/rf_1_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App/rf_1_A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/rf_5_A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App/rf_5_A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/App/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/trial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/server.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/anaconda3/Lib/asyncio/base_events.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="20PGrm4kDP2Yy3orYeKqZ5Zb4mW" />
   <component name="ProjectViewState">
@@ -19,9 +49,74 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/xvfb.sh" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.communicator">
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HIPPO_Gym" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="communicator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HIPPO_Gym" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/communicator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="play" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HIPPO_Gym" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/play.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="trial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HIPPO_Gym" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.communicator" />
+        <item itemvalue="Python.play" />
+        <item itemvalue="Python.Test" />
         <item itemvalue="Python.trial" />
       </list>
     </recent_temporary>
@@ -60,10 +158,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="329" y="44" key="FileChooserDialogImpl" timestamp="1635974722674">
-      <screen x="0" y="0" width="1097" height="577" />
-    </state>
-    <state x="329" y="44" key="FileChooserDialogImpl/0.0.1097.577/1920.0.1097.577@0.0.1097.577" timestamp="1635974722674" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

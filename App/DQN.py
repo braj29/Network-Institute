@@ -27,7 +27,7 @@ dtype = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTens
 Variable = lambda *args, **kwargs: autograd.Variable(*args, **kwargs).cuda() if USE_CUDA else autograd.Variable(*args,
                                                                                                                 **kwargs)
 class DQN(nn.Module):
-    def __init__(self, in_channels=4, num_actions=5):
+    def __init__(self, in_channels=4, num_actions=4):
         """
         try to make in_chan=1, which might improve the efficiency
         Initialize a deep Q-learning network as described in

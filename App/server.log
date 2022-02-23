@@ -1557,3 +1557,2189 @@ INFO:root:Loading Config in trial.py
 INFO:root:Config loaded in trial.py
 INFO:root:Loading Config in trial.py
 INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<consumer_handler() done, defined at communicator.py:54> exception=ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 750, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 819, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 895, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 971, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\framing.py", line 55, in read
+    data = await reader(2)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "communicator.py", line 58, in consumer_handler
+    async for message in websocket:
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 356, in __aiter__
+    yield await self.recv()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 421, in recv
+    await self.ensure_open()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 726, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<consumer_handler() done, defined at communicator.py:54> exception=ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 750, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 819, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 895, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 971, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\framing.py", line 55, in read
+    data = await reader(2)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "communicator.py", line 58, in consumer_handler
+    async for message in websocket:
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 356, in __aiter__
+    yield await self.recv()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 421, in recv
+    await self.ensure_open()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 726, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<consumer_handler() done, defined at communicator.py:54> exception=ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 750, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 819, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 895, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 971, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\framing.py", line 55, in read
+    data = await reader(2)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "communicator.py", line 58, in consumer_handler
+    async for message in websocket:
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 356, in __aiter__
+    yield await self.recv()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 421, in recv
+    await self.ensure_open()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 726, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<producer_handler() done, defined at D:/NIAA/App/communicator.py:61> exception=ConnectionClosedOK('code = 1001 (going away), no reason')>
+Traceback (most recent call last):
+  File "D:/NIAA/App/communicator.py", line 74, in producer_handler
+    done = await producer(websocket, pipe)
+  File "D:/NIAA/App/communicator.py", line 92, in producer
+    await websocket.send(message)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 471, in send
+    await self.ensure_open()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 726, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1001 (going away), no reason
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<consumer_handler() done, defined at communicator.py:54> exception=ConnectionClosedError('code = 1006 (connection closed abnormally [internal]), no reason')>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 750, in transfer_data
+    message = await self.read_message()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 819, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 895, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 971, in read_frame
+    frame = await Frame.read(
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\framing.py", line 55, in read
+    data = await reader(2)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "communicator.py", line 58, in consumer_handler
+    async for message in websocket:
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 356, in __aiter__
+    yield await self.recv()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 421, in recv
+    await self.ensure_open()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\protocol.py", line 726, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: code = 1006 (connection closed abnormally [internal]), no reason
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.

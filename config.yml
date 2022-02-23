@@ -29,19 +29,24 @@ project:
   teamMembers: # str
 trial:
   actionBufferLifespan: 1 # int
-  maxEpisodes: 2 # int
-  game: MountainCar-v0 # full environment name
+  maxEpisodes: 20 # int
+  game: GDY-Labyrinth-v0  #PongNoFrameskip-v4 #MountainCar-v0 # full environment name #parking-v0
   dataFile: episode # episode or trial
   s3upload: True
   actionSpace: # the appropriate action space for environment. Order matters
+    - noop
+    - left
+    - up
+    - right
+    - down
     #- noop
+    #- left
+    #- right
     #- up
-    - Accelerate to the Left
-    - Don't accelerate
-    - Accelerate to the Right
-    #- upright
-    #- upleft
-    #- downright
+    #- down
+    #- LEFT
+    #- RIGHTFIRE
+    #- LEFTFIRE
     #- downleft
   frameRateStepSize: 5 # int Optional if allowFrameRateChange = False
   minFrameRate: 1 # int Optional if allowFrameRateChange = False
@@ -49,10 +54,10 @@ trial:
   allowFrameRateChange: False # bool
   startingFrameRate: 30 # int Required
   ui: # to include ui button set to True, False buttons will not be shown
-    left: False
-    right: False
-    up: False
-    down: False
+    left: True
+    up: True
+    right: True
+    down: True
     start: True
     stop: True
     pause: True
@@ -60,9 +65,11 @@ trial:
     trainOffline: False
     trainOnline: False
     good: True
-    reallygood: True
+    reallygood: False
     bad: True
     fpsSet: False
     fpsUp: False
     fpsDown: False
+    demonstrate: True
+    flag: False
 

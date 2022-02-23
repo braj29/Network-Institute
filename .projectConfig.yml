@@ -29,25 +29,31 @@ project:
 trial:
   actionBufferLifespan: 1
   actionSpace:
-  - Accelerate to the Left
-  - Don't accelerate
-  - Accelerate to the Right
+  - noop
+  - left
+  - up
+  - right
+  - down
   allowFrameRateChange: false
   bucket: null
   dataFile: episode
   frameRateStepSize: 5
-  game: MountainCar-v0
-  maxEpisodes: 2
+  game: GDY-Labyrinth-v0
+  maxEpisodes: 20
   maxFrameRate: 60
   minFrameRate: 1
   projectId: null
   s3upload: true
   startingFrameRate: 30
   ui:
+  - left
+  - up
+  - right
+  - down
   - start
   - stop
   - pause
   - reset
   - good
-  - reallygood
   - bad
+  - demonstrate

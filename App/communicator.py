@@ -23,12 +23,12 @@ def main():
     devEnv = True
     start_server = websockets.serve(handler, ADDRESS, PORT)
     # if len(sys.argv) > 1 and sys.argv[1] == 'dev':
-    #     start_server = websockets.serve(handler, ADDRESS, PORT)
-    #     devEnv = True
+    #      start_server = websockets.serve(handler, ADDRESS, PORT)
+    #      devEnv = True
     # else:
-    #     ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-    #     ssl_context.load_cert_chain('fullchain.pem', keyfile='privkey.pem')
-    #     start_server = websockets.serve(handler, None, PORT, ssl=ssl_context)
+    #      ssl_context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    #      ssl_context.load_cert_chain('fullchain.pem', keyfile='privkey.pem')
+    #      start_server = websockets.serve(handler, None, PORT, ssl=ssl_context)
     asyncio.get_event_loop().run_until_complete(start_server)
     asyncio.get_event_loop().run_forever()
 
