@@ -10,6 +10,32 @@ import torch
 import torch.nn.functional as F
 import math
 
+# m = np.zeros((16,14))
+# #m[0][13] = 1
+# w = 16
+# h = 14
+# #print(num_list)
+# n = 1
+# for i in range(w):
+#     for j in range(h):
+#         m[i][j] = n
+#         n += 1
+
+# def get_state (state):
+#     if state[0].shape == (16,14):
+#         s = np.array(np.where(state[0] == 1)).T.flatten()
+#         #print(s)
+#         if s != []:
+#             x = s[0]
+#             y = s[1]
+#             cell = m[x][y]
+#         else:
+#             cell = 1
+#         return int(cell)
+#     else:
+#         return int(state)
+
+
 def get_state(state):
     
     if len(state) != 2:
@@ -47,7 +73,10 @@ class PSAgent:
         index = pd.MultiIndex.from_tuples(coordinates, names=["X", "Y"])
         self.feedback = pd.DataFrame(index = index, columns= range(self.action_space), dtype= object)
         #print(self.qtable)
-        self.feedback = self.feedback.fillna(0)
+        self.feedback = self.feedback.fillna(1)
+        #print(self.feedback)
+        #pass
+        #self.feedback = np.ones((self.num_actions, self.iht_size))
     
     def trans(self, state):
         s = ""
@@ -75,9 +104,9 @@ class PSAgent:
         for i in range(self.action_space):
             if self.feedback.loc[state, i] < -50:
                 self.feedback.loc[state, i] = -50
-            prob.append(math.pow(0.95,self.feedback.loc[state,i])/
-                        (math.pow(0.95,self.feedback.loc[state,i]) + 
-                         math.pow(0.05,self.feedback.loc[state,i])) )
+            prob.append(math.pow(0.60,self.feedback.loc[state,i])/
+                        (math.pow(0.60,self.feedback.loc[state,i]) +
+                         math.pow(0.40,self.feedback.loc[state,i])) )
         return prob
     def choose_action(self, state):
         #self.check_add(state)

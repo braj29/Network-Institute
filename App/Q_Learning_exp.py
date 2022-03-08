@@ -22,7 +22,7 @@ env = gym.make('GDY-Labyrinth-v0', player_observer_type = gd.ObserverType.VECTOR
 #env = Env.Fixing()
 
 state = env.reset()
-episodes = 1000000
+episodes = 100000
 times = 1
 total_reward = [0 for i in range(episodes)]
 cnt = 0
@@ -36,7 +36,8 @@ for t in range(times):
     for epsd in range(episodes):
         #total_reward.append(0)
         #print(epsd)
-        
+        if epsd % 1000 == 0:
+            print(epsd)
         start_f = cnt
         while(1):
             cnt += 1

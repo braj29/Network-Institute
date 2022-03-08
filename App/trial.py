@@ -273,6 +273,7 @@ class Trial():
         self.update_entry(envState)
         self.save_entry()
         self.reward = "None"
+        self.humanAction = 0
         if envState['done']:
             self.reset()
 

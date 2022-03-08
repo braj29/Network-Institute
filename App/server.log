@@ -3743,3 +3743,918 @@ INFO:root:True
 INFO:root:Dev set... Not uploading to s3.
 INFO:root:True
 INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+ERROR:websockets.server:Error in connection handler
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 458, in start_client
+    s.connect((host, port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 197, in patch_args
+    host, port = _get_host_port()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 47, in _get_host_port
+    host, port = pydevd.dispatch()
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1872, in dispatch
+    dispatcher.connect(host, port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1826, in connect
+    self.client = start_client(self.host, self.port)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 463, in start_client
+    sys.stderr.write("Could not connect to %s: %s\n" % (host, port))
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\websockets\legacy\server.py", line 293, in handler
+    await self.ws_handler(self, path)
+  File "D:/NIAA/App/communicator.py", line 42, in handler
+    userTrial.start()
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\context.py", line 326, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\rajbh\anaconda3\lib\multiprocessing\popen_spawn_win32.py", line 73, in __init__
+    hp, ht, pid, tid = _winapi.CreateProcess(
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 575, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, patch_arg_str_win(cmd_line), *args)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 367, in patch_arg_str_win
+    arg_str = ' '.join(patch_args(args))
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_monkey.py", line 274, in patch_args
+    traceback.print_exc()
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 163, in print_exc
+    print_exception(*sys.exc_info(), limit=limit, file=file, chain=chain)
+  File "C:\Users\rajbh\anaconda3\lib\traceback.py", line 105, in print_exception
+    print(line, file=file, end="")
+OSError: [Errno 22] Invalid argument
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+INFO:root:True
+INFO:root:Dev set... Not uploading to s3.
+ERROR:asyncio:Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\rajbh\anaconda3\lib\asyncio\proactor_events.py", line 162, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+INFO:root:Loading Config in trial.py
+INFO:root:Config loaded in trial.py

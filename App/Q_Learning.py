@@ -30,7 +30,7 @@ class QLAgent:
     def __init__(self, action_space, state_space, alpha = 0.5, gamma=0.8, temp = 1, epsilon = 0.1, mini_epsilon = 0.01, decay = 0.999):
         self.action_space = action_space.n 
         self.alpha = alpha
-        self.gamma= gamma
+        self.gamma = gamma
         self.temp = temp
         self.epsilon = epsilon
         self.mini_epsilon = mini_epsilon
@@ -40,11 +40,11 @@ class QLAgent:
         d, w, h = state_space.shape
         total_states = w * h
         shp = state_space.shape
-        xs = list(range(1,w+1))
+        xs = list(range(1, w+1))
         ys = list(range(1, h+1))
-        coordinates = [(str(x),str(y)) for x in xs for y in ys]
+        coordinates = [(str(x), str(y)) for x in xs for y in ys]
         index = pd.MultiIndex.from_tuples(coordinates, names=["X", "Y"])
-        self.qtable = pd.DataFrame(index = index, columns= range(self.action_space), dtype= object)
+        self.qtable = pd.DataFrame(index = index, columns = range(self.action_space), dtype= object)
         #print(self.qtable)
         self.qtable = self.qtable.fillna(1)
         #self.qtable = np.zeros(total_states, action_space.n)
@@ -66,10 +66,10 @@ class QLAgent:
         #self.check_add(next_state)
         state = get_state(state)
         next_state = get_state(next_state)
-        q_sa= self.qtable.loc[state,action]
-        max_next_q_sa=self.qtable.loc[next_state,:].max()
-        new_q_sa= q_sa + self.alpha * (rwd + self.gamma * max_next_q_sa - q_sa)
-        self.qtable.loc[state, action]= new_q_sa 
+        q_sa = self.qtable.loc[state, action]
+        max_next_q_sa = self.qtable.loc[next_state, :].max()
+        new_q_sa = q_sa + self.alpha * (rwd + self.gamma * max_next_q_sa - q_sa)
+        self.qtable.loc[state, action] = new_q_sa
     # def learning(self, action, feedback, state, next_state):
     #     self.check_add(state)
     #     self.check_add(next_state)

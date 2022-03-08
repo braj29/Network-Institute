@@ -18,7 +18,7 @@ import griddly
 from griddly import gd
 #from Policy_Shaping import PS
 
-global state
+#global state
 
 #from gym.utils import play
 
@@ -36,7 +36,8 @@ close()
 These functions are mandatory. This file contains minimum working versions
 of these functions, adapt as required for individual research goals.
 '''
-import Policy_Shaping as PS
+import Policy_Shaping_copy as PS
+from Policy_Shaping_copy import get_state
 
 class PSA:
     
@@ -77,10 +78,11 @@ class Agent():
             Mandatory
         '''
         #game = 'GDY-Labyrinth-v0'
+        self.demo = False
         self.env = gym.make(game, player_observer_type = gd.ObserverType.VECTOR)
         #self.env.reset()
         
-        self.demo = False
+
         self.PS = True
         
         if self.PS:
@@ -101,7 +103,7 @@ class Agent():
             - envState (Type: dict containing all information to be recorded for future use)
               change contents of dict as desired, but return must be type dict.
         '''
-        time.sleep(0.2)
+        #time.sleep(0.1)
         if self.demo == False:
             if self.PolSh.time_step == 0:
                 self.state =self.PolSh.first_state
@@ -116,13 +118,22 @@ class Agent():
             feedback = self.PolSh.update_feedback(human_feedback)
 
             next_state, reward, done, info = self.env.step(action)
+            self.next_state = next_state
+            #state - next_state =
+            # if reward == 0:
+            #     reward = -1
+            #manhattan
+            # goal_state = ("14", "2")
+            # current_state = get_state(self.state)
+            # manhtn_dist = abs(int(goal_state[0]) - int(current_state[0])) + abs(int(goal_state[1]) - int(current_state[1]))
+            # reward = -manhtn_dist
             reward_f = feedback + reward
             if action != 0:
-                self.PolSh.Agent.learning(action, reward_f, self.state, next_state)
+                self.PolSh.Agent.learning(action, reward_f, self.state, self.next_state)
             self.state = next_state
 
         elif self.demo == True:
-            feedback_demo = 0.2
+            feedback_demo = 1
             next_state, reward, done, info = self.env.step(human_action)
             if human_action != 0:
                self.PolSh.Agent.learning(human_action, feedback_demo, self.state, next_state)
@@ -145,7 +156,7 @@ class Agent():
             - return from env.render('rgb_array') (Type: npArray)
               must return the unchanged rgb_array
         '''
-        return self.env.render(observer = "global")
+        return self.env.render('rgb_array', observer = "global")
 
     def reset(self):
         '''

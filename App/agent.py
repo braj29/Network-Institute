@@ -151,17 +151,17 @@ class TamerAgent:
         
         
         self.last_action = None
-        self.previous_tiles = None
+        #self.previous_tiles = None
         self.first_state= None
         self.current_action = None
-        self.current_tiles= None
+        #self.current_tiles= None
         
-        self.num_tilings =  8
-        self.num_tiles =  8
-        self.iht_size =  4096
+        #self.num_tilings =  8
+        #self.num_tiles =  8
+        #self.iht_size =  4096
         self.epsilon = 0.01
-        self.x = .08
-        self.alpha =self.x/self.num_tilings  #this is step size
+        #self.x = .08
+        self.alpha = 0.5       #self.x/self.num_tilings  #this is step size
         self.num_actions = 3
         self.actions = list(range(self.num_actions))
         self.time_step=0

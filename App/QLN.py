@@ -66,6 +66,7 @@ def test(model = 1, episodes= 1000, times  = 1):
         #             break
         
         for epsd in range(episodes):
+            print("Episode no:", epsd)
             #total_reward.append(0)
             #print(epsd)
             state = env.reset()
@@ -130,7 +131,7 @@ def test(model = 1, episodes= 1000, times  = 1):
         
         
 length = 100000
-times = 10
+times = 1
 M=[0 for i in range(length)]
 S=[0 for i in range(length)]
 N=[0 for i in range(length)]
