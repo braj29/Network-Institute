@@ -62,12 +62,13 @@ if __name__ == '__main__':
     # # Replace with your own control algorithm!
     for _ in range(100000):
         
-        Qagent = pd.read_pickle(r'q_learning_oracle.pkl')
+        Qagent = pd.read_pickle(r'q_learning_oracle_3.pkl')
         prob = Qagent.action_prob(state)
         #print(object)
         action = np.random.choice([i for i in range(env.action_space.n)],p = prob/sum(prob))
         #action = env.action_space.sample()
         #print(action)
+        print(env.action_space.sample())
         obs, reward, done, info = env.step(action)
         #print(obs)
         env.render(observer = 'global') # Renders the environment from the perspective of a single player
@@ -76,48 +77,48 @@ if __name__ == '__main__':
         state = obs
         if done:
             env.reset()
-    # print(f"Action Space : {env.action_space.n}")
-    # print(env.observation_space.sample())
-    # print(f"Action Space Sample : {env.action_space.sample()}")
-    # #print(f"Action Space Meanings: {env.unwrapped.get_action_meanings()}")
-    # print(f"Action Space Keys : {env.unwrapped.get_keys_to_action()}")
-    # print(f"Observation Space : {env.observation_space}")
-    # print(env.game.get_object_names())
-    # print(f"Reward Range : {env.reward_range}")
-#     # print(env.action_space)
+#     # print(f"Action Space : {env.action_space.n}")
+#     # print(env.observation_space.sample())
+#     # print(f"Action Space Sample : {env.action_space.sample()}")
+#     # #print(f"Action Space Meanings: {env.unwrapped.get_action_meanings()}")
+#     # print(f"Action Space Keys : {env.unwrapped.get_keys_to_action()}")
+#     # print(f"Observation Space : {env.observation_space}")
+#     # print(env.game.get_object_names())
+#     # print(f"Reward Range : {env.reward_range}")
+# #     # print(env.action_space)
 
 
-#     # # # Replace with your own control algorithm!
-#     # for s in range(1000):
-#     #     obs, reward, done, info = env.step(env.action_space.sample())
-#     #     #print(obs[3].shape)
-#     #     print(obs)
-#     #     w, h = obs[3].shape
-#     #     total_states = w * h
-#     #     print(total_states)
-#     #     #import numpy as np
-#     #     #r = np.where(obs[1]==1)
-#     #     #print(r)
-#     #     #print(type(obs))
-#     #     #env.render() # Renders the environment from the perspective of a single player
-#     #     #print(env.game.get_object_names())
-#     #     env.render(observer='global') # Renders the entire environment
+# #     # # # Replace with your own control algorithm!
+# #     # for s in range(1000):
+# #     #     obs, reward, done, info = env.step(env.action_space.sample())
+# #     #     #print(obs[3].shape)
+# #     #     print(obs)
+# #     #     w, h = obs[3].shape
+# #     #     total_states = w * h
+# #     #     print(total_states)
+# #     #     #import numpy as np
+# #     #     #r = np.where(obs[1]==1)
+# #     #     #print(r)
+# #     #     #print(type(obs))
+# #     #     #env.render() # Renders the environment from the perspective of a single player
+# #     #     #print(env.game.get_object_names())
+# #     #     env.render(observer='global') # Renders the entire environment
 
-#     #     if done:
-#     #         env.reset()
+# #     #     if done:
+# #     #         env.reset()
 
 # import gym
 # from gym.utils.play import play
 # import griddly
 # from griddly import GymWrapperFactory
 
-# # This is what to use if you want to use OpenAI gym environments
-# #wrapper = GymWrapperFactory()
+# This is what to use if you want to use OpenAI gym environments
+# wrapper = GymWrapperFactory()
 
-# #rapper.build_gym_from_yaml('SokobanTutorial', 'sokoban.yaml', level=0)
+# rapper.build_gym_from_yaml('SokobanTutorial', 'sokoban.yaml', level=0)
 
-# # Create the Environment
+# Create the Environment
 # env = gym.make(f'GDY-Labyrinth-v0')
 
-# # Play the game
+# Play the game
 # play(env, fps=10, zoom=1)

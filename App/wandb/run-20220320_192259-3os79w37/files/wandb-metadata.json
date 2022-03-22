@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2022-03-20T18:23:09.768052",
+    "startedAt": "2022-03-20T18:22:59.566550",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\NIAA\\App\\communicator.py",
+    "codePath": "App\\communicator.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "50988156+braj29@users.noreply.github.com",
+    "root": "D:/NIAA",
+    "host": "LAPTOP-491S72G5",
+    "username": "rajbh",
+    "executable": "C:\\Users\\rajbh\\anaconda3\\python.exe"
+}

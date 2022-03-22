@@ -69,7 +69,7 @@ class Trial():
                 render = self.get_render()
                 self.send_render(render)
                 self.take_step()
-            time.sleep(1/self.framerate)
+            time.sleep(10/self.framerate)
 
     def reset(self):
         '''
@@ -167,17 +167,15 @@ class Trial():
         elif command == 'requestUI':
             self.send_ui()
         elif command == 'good':
-            self.reward = 'good'
+            self.human_feedback = 'good'
         elif command == 'reallygood':
-            self.reward = 'reallygood'
+            self.human_feedback = 'reallygood'
         elif command == 'bad':
-            self.reward = 'bad'
+            self.human_feedback = 'bad'
         elif command == 'demonstrate':
             #self.reset()
             self.agent.demo = True
-            #self.agent.t = 0
-            #time.sleep(20)
-            #self.reset()
+            #self.framerate = 70
 
     def handle_framerate_change(self, change:str):
         '''
@@ -272,7 +270,7 @@ class Trial():
         envState = self.agent.step(self.humanAction, self.human_feedback)
         self.update_entry(envState)
         self.save_entry()
-        self.reward = "None"
+        self.human_feedback = "None"
         self.humanAction = 0
         if envState['done']:
             self.reset()

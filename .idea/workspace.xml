@@ -2,273 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24599f4-a712-4f0a-adcc-d0c3dfdfcd9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Policy_Shaping_copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_015b064f-3fbc-47ff-a5d0-48eb593c4999" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_01be8b0d-8ae6-4c7f-af6a-f4f87f68a449" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_0a6aef78-3f6e-4d6d-8ee8-b06c12fc84cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_0dc7a7d1-d9a0-4ae6-a5d5-4afdd1954865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_0de065ce-e6fb-4ab6-9782-d64b6f2388be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_0e4eb9ac-7e7c-4552-bf7e-bc42ae6e3226" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_1f32f7fe-c9df-497f-9b6c-1c6c905d7c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_1faa1ae8-2b9b-4aca-a0ce-93fa46c03257" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_22780216-137b-48ae-8c05-90216e2a989a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_233260ea-3577-4a7c-964d-a477d789ab9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_23d95b00-682b-4247-90f9-7c4c0556936c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_257dae21-3c66-406b-9504-1e855f7fc950" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_2893772e-4049-478d-a730-78ab1500ebd5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_2cababd6-e6be-43dc-b701-5b1efda16075" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_2d6eec85-7d46-4907-9fcc-ec6811689a33" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_38589053-cca2-42fb-ab03-cdc1414c82d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_3ec19acc-4bd5-4d20-8760-2caa7c0b4303" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_3fc39b07-017e-48f8-bf36-54817f942ba7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_409fa9e6-1abf-4fdf-9355-66b460526261" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_48a5bfba-3a23-470a-8ce3-7084a64cd601" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_5611fa34-d5dd-4558-8e02-8e413c7f4b6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_58a738e0-d1d5-447b-987f-a4f90ab51d61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_597d8909-8b22-49fa-b4e6-5194e1f34006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_5daadb48-b286-45bb-ba27-8c310a119dca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_6edb578b-e09b-4d13-ad6a-1a6838de9079" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_736be61b-8e6d-4f75-84a5-8cc1b8893924" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_767a3b5e-b3ad-4d30-94b3-3cd8835e4695" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_7d059d5d-5d71-40fa-b993-9260787a4bc6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_818d27e3-cce3-4bd4-af6a-01f8089e3e68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_82a3bb6c-1f5f-49b0-9399-f77e12df573a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_854e2e5e-2936-4a99-b7ff-b4c97a9b5d12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8715c7a8-0d3a-4efd-a5e5-f6f18564c492" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_891af1ff-663d-4d9e-88e5-7834d1e49628" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8a81a6b1-a8d5-4fa5-a20a-b92be956621c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8c63daec-9e4e-42ce-8d84-123edda229a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8d238f52-9223-46f6-ba8a-46895ca455f5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_8e9bbeb0-b487-4d82-99aa-d633317e0427" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_a0912296-97d1-44f8-8223-a0747de60cb6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_a319d0a8-92ca-4a82-b2b6-2fe00dffed16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_af4cba48-6709-4684-a4df-5f7ba3ee7a4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_b46fdb87-9e24-4785-9006-9634135afdfe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_b840350f-ef4a-4041-86bf-66bfa3a7bb8d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_bb7e7cec-489d-46d6-b9eb-b0e0905155f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_c200f120-7bb3-46eb-9309-5bd6c6579bbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_c32246d9-dfb4-412b-974b-5625fcfdf45b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_ca94944c-b270-4042-9111-26b131325b9e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_cec65fe8-31f6-4967-97f1-c38cc6394f52" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_cf7cf5b3-2f89-4e19-9348-7fd0dcf5205e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_d4b86e42-5da7-4a1d-bd27-06a2186b0f36" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_de686b12-28cf-4739-80ef-aa47fa946819" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_dee64ddb-ad45-4054-ad17-acb99c62dc1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_df1ee8f2-86c3-4f02-b8f0-14f6b0cf2bf1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_e156d67d-0749-49bb-90ed-3567df287c27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_e3b0e675-b464-4eaa-93d8-049d5a53121c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_e6ea8d52-50c3-462c-85eb-df52bdf38872" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_f820ea64-649f-4483-9da8-a56c18da8865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_fa081ca3-fa5f-435a-8774-6aaa2ca14b6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_fabc83ae-8d32-4968-93bb-9258c339ce87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_0_user_fb428325-8976-451c-93f1-84c11790f101" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_10_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_11_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_11_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_11_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_11_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_11_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_12_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_12_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_12_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_12_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_12_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_13_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_13_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_13_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_14_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_14_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_14_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_15_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_15_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_15_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_16_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_16_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_17_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_17_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_18_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_18_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_19_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_0a6aef78-3f6e-4d6d-8ee8-b06c12fc84cf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_1f32f7fe-c9df-497f-9b6c-1c6c905d7c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_22780216-137b-48ae-8c05-90216e2a989a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_23d95b00-682b-4247-90f9-7c4c0556936c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_3fc39b07-017e-48f8-bf36-54817f942ba7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_409fa9e6-1abf-4fdf-9355-66b460526261" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_5611fa34-d5dd-4558-8e02-8e413c7f4b6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_58a738e0-d1d5-447b-987f-a4f90ab51d61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_8c63daec-9e4e-42ce-8d84-123edda229a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_af4cba48-6709-4684-a4df-5f7ba3ee7a4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_b46fdb87-9e24-4785-9006-9634135afdfe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_b840350f-ef4a-4041-86bf-66bfa3a7bb8d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_bb7e7cec-489d-46d6-b9eb-b0e0905155f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_c32246d9-dfb4-412b-974b-5625fcfdf45b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_f820ea64-649f-4483-9da8-a56c18da8865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_1_user_fb428325-8976-451c-93f1-84c11790f101" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_1f32f7fe-c9df-497f-9b6c-1c6c905d7c5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_22780216-137b-48ae-8c05-90216e2a989a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_5611fa34-d5dd-4558-8e02-8e413c7f4b6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_58a738e0-d1d5-447b-987f-a4f90ab51d61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_8c63daec-9e4e-42ce-8d84-123edda229a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_bb7e7cec-489d-46d6-b9eb-b0e0905155f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_2_user_f820ea64-649f-4483-9da8-a56c18da8865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_22780216-137b-48ae-8c05-90216e2a989a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_5611fa34-d5dd-4558-8e02-8e413c7f4b6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_bb7e7cec-489d-46d6-b9eb-b0e0905155f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_3_user_f820ea64-649f-4483-9da8-a56c18da8865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_22780216-137b-48ae-8c05-90216e2a989a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_5611fa34-d5dd-4558-8e02-8e413c7f4b6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_bb7e7cec-489d-46d6-b9eb-b0e0905155f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_4_user_f820ea64-649f-4483-9da8-a56c18da8865" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_36b5b45e-c592-40b1-a975-262d9a715e98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_740648fb-72f1-4ec8-957f-207dbccc1cd3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_c795af91-c7e0-4c0d-a9b1-3c863709cf16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_5_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_8e750cc8-9247-42f0-a681-704fb3279de0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_6_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_2a0cd04c-9c18-428e-9892-2517abff63bc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_a8d4e8f7-8693-432b-99a6-8e059cec3ed6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_cd0105c5-fcae-4b49-a22a-1f63cd98e1b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_7_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_8_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_356ef32c-008e-446a-af71-ee123b978091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_5cc9a5db-a383-4e29-b20e-93d49d925159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_70f2866a-0602-4152-984e-c5dc702c0e61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_97f9edcc-997d-4bb4-9751-2a47fbb872de" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_9c96f1f9-612f-47b6-8459-9327e434c23d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_bd339f28-6b7b-4c34-8225-bdf35b7562e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_c51f0ea6-ce7d-4b1e-8340-572e62f44e82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Trials/episode_9_user_d47b670d-5770-45fb-a5c8-ee07a7679dc9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/agent_alpha copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/agent_tamer_griddly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/agent_tgriddly.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/q_learning_oracle_2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/test_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.projectConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.projectConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/.trialConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/App/.trialConfig.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/None_feedback" beforeDir="false" afterPath="$PROJECT_DIR$/App/None_feedback" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Policy_Shaping.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Policy_Shaping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/QLN.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/QLN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Q_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Q_Learning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Q_Learning_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Q_Learning_exp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/agent_alpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent_alpha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/agent_tamer_griddly.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent_tamer_griddly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/App/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/trial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ALPHA_G/ALPHA_Q_LEARNING_BASED/ALPHA.py" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -307,7 +54,7 @@
       <recent name="D:\NIAA\App" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q_Learning_exp">
+  <component name="RunManager" selected="Python.communicator">
     <configuration name="QLN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HIPPO_Gym" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.communicator" />
         <item itemvalue="Python.Q_Learning_exp" />
         <item itemvalue="Python.test_1" />
         <item itemvalue="Python.QLN" />
-        <item itemvalue="Python.communicator" />
         <item itemvalue="Python.test_5" />
       </list>
     </recent_temporary>
@@ -455,28 +202,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_tamer_griddly.py</url>
-          <line>246</line>
+          <line>248</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_tamer_griddly.py</url>
-          <line>231</line>
+          <line>233</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_tamer_griddly.py</url>
-          <line>151</line>
+          <line>150</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_tamer_griddly.py</url>
-          <line>227</line>
+          <line>229</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_tamer_griddly.py</url>
-          <line>245</line>
+          <line>247</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/App/trial.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

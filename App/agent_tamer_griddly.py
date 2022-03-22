@@ -12,7 +12,6 @@ import griddly
 from griddly import gd
 #from Policy_Shaping import get_state
 
-
 #This is the code for tile coding features
 basehash = hash
 
@@ -150,10 +149,13 @@ def get_state (state):
             x = s[0]
             y = s[1]
             cell = m[x][y]
+            cell = int(cell)
+            print(cell)
         else:
             cell = 1
         return int(cell)
     else:
+        #print(state)
         return int(state)
 
 
@@ -350,7 +352,7 @@ class Agent():
         if self.tamer:
             np.random.seed(0)
             self.tamerAgent = TamerAgent()
-        self.env = gym.make(game, player_observer_type = gd.ObserverType.VECTOR)
+        self.env = gym.make(game, player_observer_type = gd.ObserverType.VECTOR, observer = gd.ObserverType.SPRITE_2D)
         return
 
     def step(self, action, reward):
@@ -365,7 +367,7 @@ class Agent():
             - envState (Type: dict containing all information to be recorded for future use)
               change contents of dict as desired, but return must be type dict.
         '''
-        time.sleep(0.5)
+        #time.sleep(0.5)
         if self.tamer ==True and self.demo == False:
             if self.tamerAgent.time_step == 0:
                 self.tamerAgent.agent_start(self.tamerAgent.first_state)

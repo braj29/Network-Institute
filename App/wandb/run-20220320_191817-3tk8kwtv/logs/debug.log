@@ -1,0 +1,23 @@
+2022-03-20 19:18:17,564 INFO    MainThread:17112 [wandb_setup.py:_flush():71] setting env: {}
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_init.py:_log_setup():371] Logging user logs to D:\NIAA\App\wandb\run-20220320_191817-3tk8kwtv\logs\debug.log
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_init.py:_log_setup():372] Logging internal logs to D:\NIAA\App\wandb\run-20220320_191817-3tk8kwtv\logs\debug-internal.log
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_init.py:init():404] calling init triggers
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [wandb_init.py:init():449] starting backend
+2022-03-20 19:18:17,565 INFO    MainThread:17112 [backend.py:_multiprocessing_setup():95] multiprocessing start_methods=spawn, using: spawn
+2022-03-20 19:18:17,581 INFO    MainThread:17112 [backend.py:ensure_launched():199] starting backend process...
+2022-03-20 19:18:17,822 INFO    MainThread:17112 [backend.py:ensure_launched():204] started backend process with pid: 6968
+2022-03-20 19:18:17,839 INFO    MainThread:17112 [wandb_init.py:init():458] backend started and connected
+2022-03-20 19:18:17,839 INFO    MainThread:17112 [wandb_init.py:init():519] updated telemetry
+2022-03-20 19:18:18,002 INFO    MainThread:17112 [wandb_init.py:init():549] communicating current version
+2022-03-20 19:18:20,946 INFO    MainThread:17112 [wandb_init.py:init():554] got version response upgrade_message: "wandb version 0.12.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-03-20 19:18:20,946 INFO    MainThread:17112 [wandb_init.py:init():564] communicating run to backend with 30 second timeout
+2022-03-20 19:18:21,288 INFO    MainThread:17112 [wandb_init.py:init():592] starting run threads in backend
+2022-03-20 19:18:26,312 INFO    MainThread:17112 [wandb_run.py:_console_start():1816] atexit reg
+2022-03-20 19:18:26,313 INFO    MainThread:17112 [wandb_run.py:_redirect():1690] redirect: SettingsConsole.WRAP
+2022-03-20 19:18:26,313 INFO    MainThread:17112 [wandb_run.py:_redirect():1727] Wrapping output streams.
+2022-03-20 19:18:26,318 INFO    MainThread:17112 [wandb_run.py:_redirect():1751] Redirects installed.
+2022-03-20 19:18:26,319 INFO    MainThread:17112 [wandb_init.py:init():619] run started, returning control to user process

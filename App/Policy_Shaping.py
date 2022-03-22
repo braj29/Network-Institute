@@ -9,7 +9,7 @@ import pandas as pd
 import torch
 import torch.nn.functional as F
 import math
-
+import wandb
 # m = np.zeros((16,14))
 # #m[0][13] = 1
 # w = 16
@@ -69,11 +69,12 @@ class PSAgent:
         #shp = state_space.shape
         xs = list(range(1,w+1))
         ys = list(range(1, h+1))
-        coordinates = [(str(x),str(y)) for x in xs for y in ys]
-        index = pd.MultiIndex.from_tuples(coordinates, names=["X", "Y"])
-        self.feedback = pd.DataFrame(index = index, columns= range(self.action_space), dtype= object)
+        self.coordinates = [(str(x),str(y)) for x in xs for y in ys]
+        index = pd.MultiIndex.from_tuples(self.coordinates, names=["X", "Y"])
+        self.feedback = pd.DataFrame(index = index, columns= range(1, self.action_space), dtype= object)
         #print(self.qtable)
         self.feedback = self.feedback.fillna(1)
+        #wandb.init(name = "test5")
         #print(self.feedback)
         #pass
         #self.feedback = np.ones((self.num_actions, self.iht_size))
@@ -95,18 +96,29 @@ class PSAgent:
         #                       + feedback )
         state = get_state(state)
         self.feedback.loc[state,action] += feedback
+        #print(self.feedback.loc[state, :])
+        matrx = self.feedback.sum(axis = 1)
+        matrx = matrx.to_numpy()
+
+        matrx = matrx.reshape((14,16))
+        #print(matrx)
+        #print(matrx.shape)
+        w,h = matrx.shape
+        #wandb.log({'heatmap': wandb.plots.HeatMap(list(range(1,17)), list(range(1,15)), matrx, show_text = False)})
+
     def action_prob(self, state):
         #self.check_add(state)
         prob = []
+        
         state = get_state(state)
         if all(self.feedback.loc[state,:].to_numpy() == 0):
-            return np.array([1/self.action_space for i in range(self.action_space)])
-        for i in range(self.action_space):
+            return np.array([1/self.action_space for i in range(1, self.action_space)])
+        for i in range(1, self.action_space):
             if self.feedback.loc[state, i] < -50:
                 self.feedback.loc[state, i] = -50
-            prob.append(math.pow(0.60,self.feedback.loc[state,i])/
-                        (math.pow(0.60,self.feedback.loc[state,i]) +
-                         math.pow(0.40,self.feedback.loc[state,i])) )
+            prob.append(math.pow(0.95,self.feedback.loc[state,i])/
+                        (math.pow(0.95,self.feedback.loc[state,i]) +
+                         math.pow(0.05,self.feedback.loc[state,i])) )
         return prob
     def choose_action(self, state):
         #self.check_add(state)

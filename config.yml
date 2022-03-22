@@ -50,26 +50,27 @@ trial:
     #- downleft
   frameRateStepSize: 5 # int Optional if allowFrameRateChange = False
   minFrameRate: 1 # int Optional if allowFrameRateChange = False
-  maxFrameRate: 60 # int Optional if allowFrameRateChange = False
-  allowFrameRateChange: False # bool
-  startingFrameRate: 30 # int Required
+  maxFrameRate: 90 # int Optional if allowFrameRateChange = False
+  allowFrameRateChange: True # bool
+  startingFrameRate: 40 # int Required
   ui: # to include ui button set to True, False buttons will not be shown
     left: True
     up: True
     right: True
     down: True
     start: True
-    stop: True
-    pause: True
-    reset: True
+    stop: False
+    pause: False
+    reset: False
     trainOffline: False
     trainOnline: False
     good: True
     reallygood: False
     bad: True
-    fpsSet: False
-    fpsUp: False
-    fpsDown: False
+    fpsSet: True
+    fpsUp: True
+    fpsDown: True
     demonstrate: True
     flag: False
+    scaffolding: True
 

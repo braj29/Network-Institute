@@ -6,26 +6,27 @@ trial:
   - up
   - right
   - down
-  allowFrameRateChange: false
+  allowFrameRateChange: true
   bucket: null
   dataFile: episode
   frameRateStepSize: 5
   game: GDY-Labyrinth-v0
   maxEpisodes: 20
-  maxFrameRate: 60
+  maxFrameRate: 90
   minFrameRate: 1
   projectId: null
   s3upload: true
-  startingFrameRate: 30
+  startingFrameRate: 40
   ui:
   - left
   - up
   - right
   - down
   - start
-  - stop
-  - pause
-  - reset
   - good
   - bad
+  - fpsSet
+  - fpsUp
+  - fpsDown
   - demonstrate
+  - scaffolding

@@ -27,8 +27,8 @@ def get_state(state):
 
 
 class QLAgent:
-    def __init__(self, action_space, state_space, alpha = 0.5, gamma=0.8, temp = 1, epsilon = 0.1, mini_epsilon = 0.01, decay = 0.999):
-        self.action_space = action_space.n 
+    def __init__(self, action_space, state_space, alpha = 0.5, gamma=0.8, temp = 1, epsilon = 0.95, mini_epsilon = 0.01, decay = 0.999):
+        self.action_space = 5# action_space.n
         self.alpha = alpha
         self.gamma = gamma
         self.temp = temp
@@ -37,14 +37,14 @@ class QLAgent:
         self.decay = decay
         #print(self.action_space)
         #self.qtable=pd.DataFrame(columns=[ i for i in range(self.action_space.n)], dtype=object)
-        d, w, h = state_space.shape
+        d, w, h = 4, 16, 14
         total_states = w * h
-        shp = state_space.shape
+        #shp = state_space.shape
         xs = list(range(1, w+1))
         ys = list(range(1, h+1))
         coordinates = [(str(x), str(y)) for x in xs for y in ys]
         index = pd.MultiIndex.from_tuples(coordinates, names=["X", "Y"])
-        self.qtable = pd.DataFrame(index = index, columns = range(self.action_space), dtype= object)
+        self.qtable = pd.DataFrame(index = index, columns = range(1, self.action_space), dtype= object)
         #print(self.qtable)
         self.qtable = self.qtable.fillna(1)
         #self.qtable = np.zeros(total_states, action_space.n)
@@ -70,6 +70,7 @@ class QLAgent:
         max_next_q_sa = self.qtable.loc[next_state, :].max()
         new_q_sa = q_sa + self.alpha * (rwd + self.gamma * max_next_q_sa - q_sa)
         self.qtable.loc[state, action] = new_q_sa
+        #print(self.qtable.loc[state,:])
     # def learning(self, action, feedback, state, next_state):
     #     self.check_add(state)
     #     self.check_add(next_state)
@@ -90,9 +91,10 @@ class QLAgent:
         #self.check_add(state)
         state = get_state(state)
         p = np.random.uniform(0,1)
-        self.epsilon = 0.95
+        #self.epsilon = 0.95
+        #p=100
         if p <= self.epsilon:
-            return np.array([1/self.action_space for i in range(self.action_space)])
+            return np.array([1/self.action_space for i in range(1, self.action_space)])
         else:
             prob = F.softmax(torch.tensor(self.qtable.loc[(state), :].to_list()).float(),dim = 0).detach().numpy()
             return prob
@@ -101,6 +103,7 @@ class QLAgent:
         #print(state)
         state = get_state(state)
         p = np.random.uniform(0,1)
+        
         if self.epsilon >= self.mini_epsilon:
             self.epsilon *= self.decay
         if p <= self.epsilon:
@@ -108,6 +111,8 @@ class QLAgent:
         else:
             #print(self.qtable)
             prob = F.softmax(torch.tensor(self.qtable.loc[(state), :].to_list()).float(), dim = 0).detach().numpy()
+            #action = np.argmax(self.qtable.loc[(state), :])
+
             return np.random.choice(np.flatnonzero(prob == prob.max()))
 
 

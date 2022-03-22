@@ -1,0 +1,26 @@
+0
+0
+Traceback (most recent call last):
+  File "D:/NIAA/App/Q_Learning_exp.py", line 49, in <module>
+    action = Qagent.choose_action(state)
+  File "D:\NIAA\App\Q_Learning.py", line 110, in choose_action
+    prob = F.softmax(torch.tensor(self.qtable.loc[(state), :].to_list()).float(), dim = 0).detach().numpy()
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1762, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1272, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1373, in _getitem_lowerdim
+    return self._getitem_nested_tuple(tup)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1453, in _getitem_nested_tuple
+    obj = getattr(obj, self.name)._getitem_axis(key, axis=axis)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 1965, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexing.py", line 625, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\generic.py", line 3563, in xs
+    name=self.index[loc],
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexes\multi.py", line 1936, in __getitem__
+    retval.append(lev[level_codes[key]])
+  File "C:\Users\rajbh\anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 3925, in __getitem__
+    promote = self._shallow_copy
+KeyboardInterrupt
