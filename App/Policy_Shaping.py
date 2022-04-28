@@ -58,24 +58,24 @@ def get_state(state):
 
 class PSAgent:
     def __init__(self, action_space, state_space, alpha = 0.5, gamma=0.8, temp = 1, epsilon = 1):
-        self.action_space = 5
+        self.action_space = action_space
         self.alpha = alpha
         self.gamma= gamma
         self.temp = temp
         self.epsilon = epsilon
         #self.feedback=pd.DataFrame(columns=[ i for i in range(self.action_space.n)], dtype=object)
-        d, w, h = 4, 16, 14
+        d, w, h = state_space
         total_states = w * h
         #shp = state_space.shape
-        xs = list(range(1,w+1))
-        ys = list(range(1, h+1))
+        xs = list(range(0,w+1))
+        ys = list(range(0, h+1))
         self.coordinates = [(str(x),str(y)) for x in xs for y in ys]
         index = pd.MultiIndex.from_tuples(self.coordinates, names=["X", "Y"])
         self.feedback = pd.DataFrame(index = index, columns= range(1, self.action_space), dtype= object)
         #print(self.qtable)
         self.feedback = self.feedback.fillna(1)
         #wandb.init(name = "test5")
-        #print(self.feedback)
+        #print(self.feedback.index)
         #pass
         #self.feedback = np.ones((self.num_actions, self.iht_size))
     
@@ -97,13 +97,13 @@ class PSAgent:
         state = get_state(state)
         self.feedback.loc[state,action] += feedback
         #print(self.feedback.loc[state, :])
-        matrx = self.feedback.sum(axis = 1)
-        matrx = matrx.to_numpy()
+        #matrx = self.feedback.sum(axis = 1)
+        #matrx = matrx.to_numpy()
 
-        matrx = matrx.reshape((14,16))
+        #matrx = matrx.reshape((14,16))
         #print(matrx)
         #print(matrx.shape)
-        w,h = matrx.shape
+        #w,h = matrx.shape
         #wandb.log({'heatmap': wandb.plots.HeatMap(list(range(1,17)), list(range(1,15)), matrx, show_text = False)})
 
     def action_prob(self, state):

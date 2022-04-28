@@ -175,7 +175,7 @@ class Trial():
         elif command == 'demonstrate':
             #self.reset()
             self.agent.demo = True
-            #self.framerate = 70
+            self.framerate = 90
 
     def handle_framerate_change(self, change:str):
         '''
@@ -246,8 +246,11 @@ class Trial():
         '''
         Attempts to send render message to websocket
         '''
+        render['display'] = {'Reward': 3, 'Performance':2, "Demos left": 80}
+        #render['bugdet'] = {'demo': 3, 'feedback': 4}
         try: 
             self.pipe.send(json.dumps(render))
+            #self.pipe.send()
         except:
             raise TypeError("Render Dictionary is not JSON serializable")
 

@@ -51,32 +51,38 @@ from griddly import gd
 import time
 import pandas as pd
 import numpy as np        
-        
-if __name__ == '__main__':
-
-    env = gym.make('GDY-Labyrinth-v0', player_observer_type = gd.ObserverType.VECTOR, global_observer_type = gd.ObserverType.SPRITE_2D)
-    #print(dir(gym.vector))
-    state = env.reset()
-    #print(f"Observation Space : {env.observation_space.sample()}")
-
-    # # Replace with your own control algorithm!
-    for _ in range(100000):
-        
-        Qagent = pd.read_pickle(r'q_learning_oracle_3.pkl')
-        prob = Qagent.action_prob(state)
-        #print(object)
-        action = np.random.choice([i for i in range(env.action_space.n)],p = prob/sum(prob))
-        #action = env.action_space.sample()
-        #print(action)
-        print(env.action_space.sample())
-        obs, reward, done, info = env.step(action)
-        #print(obs)
-        env.render(observer = 'global') # Renders the environment from the perspective of a single player
-        #time.sleep(1)
-        #env.render(observer='global') # Renders the entire environment
-        state = obs
-        if done:
-            env.reset()
+#
+# if __name__ == '__main__':
+#
+#     env = gym.make('GDY-Labyrinth-v0', player_observer_type = gd.ObserverType.VECTOR, global_observer_type = gd.ObserverType.SPRITE_2D, level = 3)
+#     #print(dir(gym.make('GDY-Drunk-Dwarf-v0')))
+#     state = env.reset()
+#     #print(f"Observation Space : {env.observation_space.sample()}")
+#
+#     # # Replace with your own control algorithm!
+#     for _ in range(100000):
+#
+#         #Qagent = pd.read_pickle(r'q_learning_oracle_3.pkl')
+#         #prob = Qagent.action_prob(state)
+#         #print(object)
+#         #action = np.random.choice([i for i in range(env.action_space.n)],p = prob/sum(prob))
+#         action = env.action_space.sample()
+#         #print(action)
+#         action_space = env.action_space.n
+#         #print(action_space)
+#         observation_space = env.observation_space.shape
+#         #print(observation_space)
+#         _, w, h = observation_space
+#         print(w, h)
+#         #print(env.action_space.sample())
+#         obs, reward, done, info = env.step(action)
+#         #print(obs)
+#         env.render(observer = 'global') # Renders the environment from the perspective of a single player
+#         #time.sleep(1)
+#         #env.render(observer='global') # Renders the entire environment
+#         state = obs
+#         if done:
+#             env.reset()
 #     # print(f"Action Space : {env.action_space.n}")
 #     # print(env.observation_space.sample())
 #     # print(f"Action Space Sample : {env.action_space.sample()}")
@@ -107,18 +113,18 @@ if __name__ == '__main__':
 # #     #     if done:
 # #     #         env.reset()
 
-# import gym
-# from gym.utils.play import play
-# import griddly
-# from griddly import GymWrapperFactory
+import gym
+from gym.utils.play import play
+import griddly
+from griddly import GymWrapperFactory
 
 # This is what to use if you want to use OpenAI gym environments
 # wrapper = GymWrapperFactory()
-
+#
 # rapper.build_gym_from_yaml('SokobanTutorial', 'sokoban.yaml', level=0)
 
-# Create the Environment
-# env = gym.make(f'GDY-Labyrinth-v0')
+#Create the Environment
+env = gym.make(f'GDY-Labyrinthv1-v0', level = 2)
 
-# Play the game
-# play(env, fps=10, zoom=1)
+#Play the game
+play(env, fps=10, zoom=1)

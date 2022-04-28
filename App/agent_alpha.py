@@ -41,42 +41,150 @@ of these functions, adapt as required for individual research goals.
 '''
 import Policy_Shaping as PS
 from Policy_Shaping_copy import get_state
+import math
+
+
+class LevelGenerator:
+
+    def __init__(self, config):
+        self._config = config
+
+    def generate(self):
+        raise NotImplementedError()
+
+
+# rapper.build_gym_from_yaml('SokobanTutorial', 'sokoban.yaml', level=0)
+class ClustersLevelGenerator(LevelGenerator):
+    # BLUE_BLOCK = 'a'
+    # BLUE_BOX = '1'
+    # RED_BLOCK = 'b'
+    # RED_BOX = '2'
+    # GREEN_BLOCK = 'c'
+    # GREEN_BOX = '3'
+    EXIT = 'x'
+    AGENT = 'A'
+
+    WALL = 'w'
+    SPIKES = 'h'
+
+    def __init__(self, config):
+        super().__init__(config)
+        self._width = config.get('width', 16)
+        self._height = config.get('height', 14)
+        self._m_spike = config.get('m_spike', 5)
+        self._m_exit = config.get('m_exit', 5)
+
+    def _place_walls(self, map):
+
+        # top/bottom wall
+
+        wall_y = np.array([0, self._height - 1])
+        map[:, wall_y] = ClustersLevelGenerator.WALL
+        map[3, 9] = ClustersLevelGenerator.WALL
+
+        # left/right wall
+        wall_x = np.array([0, self._width - 1])
+        map[wall_x, :] = ClustersLevelGenerator.WALL
+
+        return map
+
+    def generate(self):
+        map = np.chararray((self._width, self._height), itemsize=2)
+        map[:] = '.'
+        # print(map)
+        # Generate walls
+        map = self._place_walls(map)
+        #map.tofile('test.txt')
+        # print(map)
+
+        # all possible locations
+        possible_locations = []
+        for w in range(1, self._width - 1):
+            for h in range(1, self._height - 1):
+                possible_locations.append([w, h])
+
+        def addChar(text, char, place):
+            return text[:place - 1] + char + text[place + 1:]
+
+        level_string = """w w w w w w w w w w w w w w w w
+        w w . . . . . w w w . . . . x w
+        w w . w w w . w w w . w w w w w
+        w w . w . w . . . . . . . w t w
+        w w . w . w w w w . w w w w . w
+        w . . . . . . w w w w . . . . w
+        w . w w w w . w w w w . w w w w
+        w . . . . w . . . . . . . . . w
+        w w w w w w . w w w w . w w . w
+        w . . . . . . . . . . . . . . w
+        w . w w w w . w w w . w w w . w
+        w . w . w w . w w w . w w w w w
+        w . w . . . . . t . . . . . . w
+        w w w w w w w w w w w w w w w w"""
+
+        places = "."
+
+        occurrences = level_string.count(places)
+
+        indices = [i for i, a in enumerate(level_string) if a == places]
+
+        #print(indices)
+
+        # Place Agent
+        agent_location_idx = np.random.choice(indices)
+        level_string = addChar(level_string, "A", agent_location_idx)
+        # print(level_string)
+        # agent_location = possible_locations[agent_location_idx]
+        # print(agent_location_idx)
+        # map[agent_location[0], agent_location[1]] = ClustersLevelGenerator.AGENT
+
+        # level_string = ''
+        # for h in range(0, self._height):
+        #     for w in range(0, self._width):
+        #         level_string += map[w, h].decode().ljust(4)
+        #     level_string += '\n'
+
+        # print(type(level_string))
+        return level_string
 
 
 
-class PSA:
-    
-    def __init__(self, env):
-        self.first_state = None
-        self.Agent = PS.PSAgent(env.action_space, env.observation_space)
-        self.time_step = 0
 
-    def update_feedback(self, reward):
-        # feedback = 0
-        if reward == "good":
-            return 1
-        elif reward == "bad":
-            return -1
-        elif reward == "None":
-            return 0
+#print(reward, feedback)
+def update_feedback(reward):
+    # feedback = 0
+    if reward == "good":
+        return 0.2
+    elif reward == "bad":
+        return -0.2
+    elif reward == "None":
+        return 0
 
-        #print(reward, feedback)
 
 epsilon_max = 1
 epsilon_min = 0.1
 eps_decay = 3000
-import math
+
 weight_by_frame = lambda frame_idx: epsilon_min + (epsilon_max - epsilon_min) * math.exp(
                 -1. * frame_idx / eps_decay)
-        
-d, w, h = 4, 16, 14
-total_states = w * h
-#shp = state_space.shape
-# xs = list(range(1,w+1))
-# ys = list(range(1, h+1))
-# #coordinates = [(str(x),str(y)) for x in xs for y in ys]
-# coordinates = list(range(1,225))
-# actionList = list(range(5))
+
+def get_state(state):
+    if len(state) != 2:
+        s = np.array(np.where(state[0] == 1)).T.flatten()
+        if s != []:
+            x = s[0]
+            y = s[1]
+            if (x, y) != (0, 0):
+
+                return (str(x), str(y))
+            else:
+                return (str(1), str(1))
+
+        else:
+            return (str(1), str(1))
+
+    else:
+        return state
+
 
 class Agent():
     '''
@@ -94,17 +202,28 @@ class Agent():
             - env (Type: OpenAI gym Environment as returned by gym.make())
             Mandatory
         '''
-        #game = 'GDY-Labyrinth-v0'
+
+        self.config = {
+            'width': 16,
+            'height': 14
+        }
+
+        level_generator = ClustersLevelGenerator(self.config)
+
         self.demo = False
-        self.env = gym.make(game, player_observer_type = gd.ObserverType.VECTOR)
-        #self.env.reset()
-        
-        
+        self.env = gym.make("GDY-Labyrinth-v0", player_observer_type=gd.ObserverType.VECTOR, level = 2, max_steps = 1000)
+        #self.env.reset(level_string=level_generator.generate())
+        self.env.reset()
+        self.action_space = self.env.action_space.n
+        # print(action_space)
+        self.observation_space = self.env.observation_space.shape
+        # print(observation_space)
+
         self.PS = True
         if self.PS:
             np.random.seed(0)
-            self.PolSh = PSA(self.env)
-            self.Qagent = QL.QLAgent(self.env.action_space, self.env.observation_space, epsilon=0.2, mini_epsilon=0.01,
+            self.PolSh = PS.PSAgent(self.action_space, self.observation_space)
+            self.Qagent = QL.QLAgent(self.action_space, self.observation_space, epsilon=0.2, mini_epsilon=0.01,
                                      decay=0.999)
 
         return
@@ -121,61 +240,64 @@ class Agent():
             - envState (Type: dict containing all information to be recorded for future use)
               change contents of dict as desired, but return must be type dict.
         '''
-        #print(human_feedback)
-        #time.sleep(0.1)
+
         if self.demo == False:
-            if self.PolSh.time_step == 0:
-                self.state =self.PolSh.first_state
+            if self.time_step == 0:
+                self.state =self.first_state
                 time.sleep(1.5)
                 
-            self.PolSh.time_step += 1
+            self.time_step += 1
+            self.last_state = np.copy(self.state)
+            #print((self.last_state))
             #Q_prob = self.Qagent.action_prob(state)
             #P_prob = self.PolSh.Agent.action_prob(self.state)
             self.cnt += 1
             weight = weight_by_frame(self.cnt)
             #print(weight)
-            
-            prob = self.Qagent.action_prob(self.state) + weight * np.asarray(self.PolSh.Agent.action_prob(self.state))
+
+            prob = self.Qagent.action_prob(self.last_state) + weight * np.asarray(self.PolSh.action_prob(self.last_state))
             #print(prob, sum(prob)) 
             
             prob = np.asarray(prob)
-            sum = np.sum(prob)
-            prob = prob/sum
+            #sum = np.sum(prob)
+            #prob = prob/sum
             #prob = prob/5
             print(prob)
+
             #print(prob==prob.max())
-            #action = np.random.choice(np.flatnonzero(prob == prob.max()))
-            #prob_d = 
-            a = [1,2,3,4]
-            action = np.random.choice(a,p = prob)
+            action = np.random.choice(np.flatnonzero(prob == prob.max())) + 1
+            #action_space = list(range(1, self.action_space))
+            #action = np.random.choice(action_space, p=prob / sum(prob))
+
+            print(action)
+            #prob_d =
+            #a = [1,2,3,4]
+            #action = np.random.choice(a,p = prob)
             #stochastic probability distribution
-            feedback = self.PolSh.update_feedback(human_feedback)
+            feedback = update_feedback(human_feedback)
 
             next_state, reward, done, info = self.env.step(action)
-            self.next_state = next_state
-            #state - next_state =
-            # if reward == 0:
-            #     reward = -1
-            #manhattan
-            # goal_state = ("14", "2")
-            # current_state = get_state(self.state)
-            # manhtn_dist = abs(int(goal_state[0]) - int(current_state[0])) + abs(int(goal_state[1]) - int(current_state[1]))
-
-            reward_f = feedback
+            r = 1
             if action != 0:
-                self.PolSh.Agent.learning(action, feedback, self.state, self.next_state)
-                self.Qagent.learning(action, reward, self.state, self.next_state)
+                self.PolSh.learning(action, feedback, self.last_state, next_state)
+                self.Qagent.learning(action, reward, self.last_state, next_state)
             self.state = next_state
 
         elif self.demo == True:
             feedback_demo = 1
+            self.last_state = np.copy(self.state)
             next_state, reward, done, info = self.env.step(human_action)
-            self.next_state = next_state
+            #PSA.next_state = next_state
             if human_action != 0:
-               self.PolSh.Agent.learning(human_action, feedback_demo, self.state, self.next_state)
-               self.Qagent.learning(human_action, reward, self.state, self.next_state)
+               self.PolSh.learning(human_action, feedback_demo, self.last_state, next_state)
+               self.Qagent.learning(human_action, reward, self.last_state, next_state)
+               print(get_state(self.last_state), get_state(self.state))
+
             action = human_action
+            #PSA.state = next_state
             self.state = next_state
+
+
             if done == True:
                 self.demo = False
 
@@ -207,10 +329,14 @@ class Agent():
         '''
         if self.PS:
             self.cnt = 0
-            self.PolSh.time_step = 0
-            self.PolSh.first_state = self.env.reset()
+            self.time_step = 0
+            #level_generator = ClustersLevelGenerator(self.config)
+            #self.first_state = self.env.reset(level_string=level_generator.generate())
+            self.first_state = self.env.reset()
             #state = self.PolSh.first_state
         else:
+            #level_generator = ClustersLevelGenerator(self.config)
+            #self.env.reset(level_string=level_generator.generate())
             self.env.reset()
 
     def close(self):

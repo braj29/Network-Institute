@@ -376,7 +376,7 @@ class Agent():
             self.tamerAgent.time_step += 1
             self.tamerAgent.update_reward_function(reward)
             self.tamerAgent.last_action = self.tamerAgent.current_action
-#            self.tamerAgent.previous_tiles = self.tamerAgent.current_tiles
+            r = 1 #self.tamerAgent.previous_tiles = self.tamerAgent.current_tiles
 
             if reward != 'None':
                 updated = True

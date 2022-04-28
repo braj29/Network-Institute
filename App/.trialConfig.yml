@@ -14,6 +14,7 @@ trial:
   maxEpisodes: 20
   maxFrameRate: 90
   minFrameRate: 1
+  pSet: 44
   projectId: null
   s3upload: true
   startingFrameRate: 40
@@ -26,7 +27,5 @@ trial:
   - good
   - bad
   - fpsSet
-  - fpsUp
-  - fpsDown
   - demonstrate
-  - scaffolding
+  - budgetBar
