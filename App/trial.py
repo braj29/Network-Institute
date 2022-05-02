@@ -41,7 +41,8 @@ class Trial():
         self.path = None
         self.human_feedback = 'None'
         self.demo = False
-
+        self.start_time = time.time()
+        self.elapsed_time = 0
         self.start()
         self.run()
 
@@ -172,10 +173,12 @@ class Trial():
             self.human_feedback = 'reallygood'
         elif command == 'bad':
             self.human_feedback = 'bad'
-        elif command == 'demonstrate':
+        elif command == 'demonstration':
             #self.reset()
             self.agent.demo = True
             self.framerate = 90
+        elif command == 'stop demonstration':
+            self.agent.demo = False
 
     def handle_framerate_change(self, change:str):
         '''
@@ -208,6 +211,7 @@ class Trial():
         '''
         action = action.strip().lower()
         #print(action)
+
         actionSpace = self.config.get('actionSpace')
         #print(actionSpace)
         if action in actionSpace:
@@ -246,7 +250,9 @@ class Trial():
         '''
         Attempts to send render message to websocket
         '''
-        render['display'] = {'Reward': 3, 'Performance':2, "Demos left": 80}
+        budget_left = lambda x: "OVER!" if x == 0 else x
+        #print(demos_left)
+        render['display'] = {'Reward': self.agent.total_reward, 'Time Elapsed': self.elapsed_time, "Demos left": budget_left(self.agent.demo_steps), "Feedback Left": budget_left(self.agent.feedback_steps)}
         #render['bugdet'] = {'demo': 3, 'feedback': 4}
         try: 
             self.pipe.send(json.dumps(render))

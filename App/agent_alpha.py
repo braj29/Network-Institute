@@ -190,7 +190,7 @@ class Agent():
     '''
     Use this class as a convenient place to store agent state.
     '''
-     
+
     def start(self, game:str):
         '''
         Starts an OpenAI gym environment.
@@ -209,7 +209,9 @@ class Agent():
         }
 
         level_generator = ClustersLevelGenerator(self.config)
-
+        self.total_reward = 0
+        self.demo_steps = 10
+        self.feedback_steps = 10
         self.demo = False
         self.env = gym.make("GDY-Labyrinth-v0", player_observer_type=gd.ObserverType.VECTOR, level = 2, max_steps = 1000)
         #self.env.reset(level_string=level_generator.generate())
@@ -262,14 +264,14 @@ class Agent():
             #sum = np.sum(prob)
             #prob = prob/sum
             #prob = prob/5
-            print(prob)
+            #print(prob)
 
             #print(prob==prob.max())
             action = np.random.choice(np.flatnonzero(prob == prob.max())) + 1
             #action_space = list(range(1, self.action_space))
             #action = np.random.choice(action_space, p=prob / sum(prob))
 
-            print(action)
+            #print(action)
             #prob_d =
             #a = [1,2,3,4]
             #action = np.random.choice(a,p = prob)
@@ -277,27 +279,32 @@ class Agent():
             feedback = update_feedback(human_feedback)
 
             next_state, reward, done, info = self.env.step(action)
-            r = 1
-            if action != 0:
+            if action != 0 and self.feedback_steps > 0:
                 self.PolSh.learning(action, feedback, self.last_state, next_state)
                 self.Qagent.learning(action, reward, self.last_state, next_state)
+                if feedback != 0:
+                    self.feedback_steps -= 1
+
             self.state = next_state
+            self.total_reward += reward
 
         elif self.demo == True:
+            if self.demo_steps == 0:
+                self.demo = False
             feedback_demo = 1
             self.last_state = np.copy(self.state)
             next_state, reward, done, info = self.env.step(human_action)
             #PSA.next_state = next_state
-            if human_action != 0:
+            if human_action != 0 and self.demo_steps > 0:
                self.PolSh.learning(human_action, feedback_demo, self.last_state, next_state)
                self.Qagent.learning(human_action, reward, self.last_state, next_state)
-               print(get_state(self.last_state), get_state(self.state))
-
+               #print(get_state(self.last_state), get_state(self.state))
+               self.demo_steps -= 1
             action = human_action
             #PSA.state = next_state
             self.state = next_state
 
-
+            self.total_reward += reward
             if done == True:
                 self.demo = False
 

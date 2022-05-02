@@ -5,12 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.projectConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.projectConfig.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/.trialConfig.yml" beforeDir="false" afterPath="$PROJECT_DIR$/App/.trialConfig.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Policy_Shaping.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Policy_Shaping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Q_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/Q_Learning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/agent_alpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent_alpha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/agent_tamer_griddly.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/agent_tamer_griddly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/App/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/trial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
     </list>
@@ -34,6 +30,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="20PGrm4kDP2Yy3orYeKqZ5Zb4mW" />
   <component name="ProjectViewState">
@@ -204,22 +203,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/trial.py</url>
-          <line>194</line>
+          <line>197</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>246</line>
+          <line>248</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>247</line>
+          <line>249</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>277</line>
+          <line>279</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -244,17 +243,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>279</line>
+          <line>280</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>249</line>
+          <line>251</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/App/agent_alpha.py</url>
-          <line>250</line>
+          <line>252</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>

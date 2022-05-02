@@ -52,8 +52,11 @@ trial:
   - right
   - down
   - start
+  - stop
   - good
   - bad
   - fpsSet
-  - demonstrate
-  - budgetBar
+  - fpsUp
+  - fpsDown
+  - demonstration
+  - stop demonstration

@@ -28,10 +28,10 @@ project:
     finalStep: # required, filename can be same as last numbered step
   teamMembers: # str
 trial:
-  actionBufferLifespan: 1 # int
+  actionBufferLifespan: 10 # int
   maxEpisodes: 20 # int
   game: GDY-Labyrinth-v0   #GDY-Labyrinth-v0 #GDY-Labyrinth-v0 #PongNoFrameskip-v4 #MountainCar-v0 # full environment name #parking-v0
-  dataFile: episode # episode or trial
+  dataFile: trial # episode or trial
   s3upload: True
   actionSpace: # the appropriate action space for environment. Order matters
     - noop
@@ -60,7 +60,7 @@ trial:
     right: True
     down: True
     start: True
-    stop: False
+    stop: True
     pause: False
     reset: False
     trainOffline: False
@@ -69,11 +69,11 @@ trial:
     reallygood: False
     bad: True
     fpsSet: True
-    fpsUp: False
-    fpsDown: False
-    demonstrate: True
+    fpsUp: True
+    fpsDown: True
+    demonstration: True
     flag: False
     scaffolding: False
     fdsSet: False
-    budgetBar: True
+    stop demonstration: True
 
