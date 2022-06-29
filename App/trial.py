@@ -12,6 +12,22 @@ import gym
 
 #os.add_dll_directory('c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface')
 
+intro_instruction = """The goal of this experiment is for you to train the agent
+to reach the goal state in the least amount of steps possible (shortest path), no matter
+where the agent is placed on the grid. First, we ask you to use the keyboard control
+or the use your use to interact with the UI. Press on start to play the game yourself first.
+Once you have mastered the game, we will introduce you to the next step."""
+
+state_instruction = """Congratulations on mastery!, Now we will introduce you to the different
+teaching signals you can use to teach the agent. First we start with selecting the state position. Click on the Next
+button to select an input state."""
+
+state_instruction_complete = "Well done! Now you know how to place the agent on a particular place on the grid!! Click on next to learn feedback signal"
+
+feedback_instruction = "Now it's time to give feedback to the agent. You will see two buttons on the UI, GOOD  & BAD. Click on either of these to train the agent! There will a limited quote for how many times you can give the feedback. SO use wisely!!"
+demo_instruction = "Finally, you can also demonstrate to the agent by taking control and using the keys to show it the path!! Try it now"
+
+final_instruction = "Well done!! You are now ready to train the agent. You have a limited quote for demonstrations and feedback to train the agent. Important to remember is that the final teaching performance is based on how well the agent learns to reach the goal, no matter where it is randomly placed on the grid."
 
 def load_config():
     logging.info('Loading Config in trial.py')
@@ -42,6 +58,7 @@ class Trial():
         self.human_feedback = 'None'
         self.demo = False
         self.start_time = time.time()
+        self.instruction = """ """
         self.elapsed_time = 0
         self.start()
         self.run()
@@ -64,6 +81,20 @@ class Trial():
         '''
         while not self.done:
             message = self.check_message()
+            if message != None:
+                if 'KeyboardEvent' in message.keys():
+                    key = message['KeyboardEvent']
+                    if "KEYUP" in key:
+                        key = key["KEYUP"][0]
+                        if key == "Backspace":
+                            self.human_feedback = 'bad'
+                        elif key == "Enter":
+                            self.human_feedback = 'good'
+                        elif key == " ":
+                            self.agent.demo = True
+                        elif key == "Control":
+                            self.agent.demo = False
+
             if message:
                 self.handle_message(message)
             if self.play:
@@ -157,6 +188,8 @@ class Trial():
         #print(command)
         command = command.strip().lower()
         if command == 'start':
+            if self.agent.elaps_time.time == 0.0:
+                self.agent.elaps_time.start()
             self.agent.demo = False
             self.play = True
         elif command == 'stop':
@@ -179,6 +212,14 @@ class Trial():
             self.framerate = 90
         elif command == 'stop demonstration':
             self.agent.demo = False
+        elif command == 'next':
+            #self.play = False
+
+            self.agent.phase += 1
+            #self.agent.close()
+            self.send_ui()
+            self.agent.reset()
+
 
     def handle_framerate_change(self, change:str):
         '''
@@ -252,8 +293,46 @@ class Trial():
         '''
         budget_left = lambda x: "OVER!" if x == 0 else x
         #print(demos_left)
-        render['display'] = {'Reward': self.agent.total_reward, 'Time Elapsed': self.elapsed_time, "Demos left": budget_left(self.agent.demo_steps), "Feedback Left": budget_left(self.agent.feedback_steps)}
-        #render['bugdet'] = {'demo': 3, 'feedback': 4}
+        demo_on = lambda x: "ON!" if x == True else "OFF"
+
+        if self.agent.phase == 1:
+            render['display'] = {"Instructions": intro_instruction}
+        elif self.agent.phase == 2:
+            render['display'] = {"Instructions": state_instruction}
+
+        elif self.agent.phase == 3:
+            render['display'] = {"Instructions": state_instruction_complete}
+        elif self.agent.phase == 4:
+            self.send_ui()
+            render['display'] = {"Instructions":feedback_instruction ,'Score': self.agent.total_reward, "Feedback Left": budget_left(self.agent.feedback_steps), "Feedback": self.human_feedback}
+        elif self.agent.phase == 5:
+            self.send_ui()
+            render['display'] = {"Instructions":demo_instruction ,'Score': self.agent.total_reward, "Demos left": budget_left(self.agent.demo_steps), "Demonstration": demo_on(self.agent.demo)}
+        elif self.agent.phase == 6:
+            self.send_ui()
+            render['display'] = {"Instructions": final_instruction, 'Score': self.agent.total_reward,
+                                 'Time Elapsed': self.agent.elaps_time.time,
+                                 "Demos left": budget_left(self.agent.demo_steps),
+                                 "Feedback Left": budget_left(self.agent.feedback_steps),
+                                 "Demonstration": demo_on(self.agent.demo), "Feedback": self.human_feedback}
+        elif self.agent.phase >= 6 and (self.agent.demo_steps <50 or self.agent.feedback_steps<100):
+            self.send_ui()
+            render['display'] = {'Score': self.agent.total_reward,
+                                 'Time Elapsed': self.agent.elaps_time.time,
+                                 "Demos left": budget_left(self.agent.demo_steps),
+                                 "Feedback Left": budget_left(self.agent.feedback_steps),
+                                 "Demonstration": demo_on(self.agent.demo), "Feedback": self.human_feedback}
+
+
+        else:
+            self.send_ui()
+            render['display'] = {'Score': self.agent.total_reward,
+                                 "Demos left": budget_left(self.agent.demo_steps),
+                                 "Feedback Left": budget_left(self.agent.feedback_steps),
+                                 "Demonstration": demo_on(self.agent.demo), "Feedback": self.human_feedback}
+
+        #render['display'] = {"Instructions":self.instruction ,'Score': self.agent.total_reward, 'Time Elapsed': self.agent.elaps_time.time, "Demos left": budget_left(self.agent.demo_steps), "Feedback Left": budget_left(self.agent.feedback_steps), "Demonstration": demo_on(self.agent.demo), "Feedback": self.human_feedback}
+        #render['display'] = {'INSTRUCTIONS': "The Goal of this game is.."}
         try: 
             self.pipe.send(json.dumps(render))
             #self.pipe.send()
@@ -262,8 +341,23 @@ class Trial():
 
     def send_ui(self):
         defaultUI = ['left','right','up','down','start','pause']
+        if self.agent.phase == 1:
+            buttons = ['left', 'right', 'up', 'down', 'start', 'pause', 'next']
+        elif self.agent.phase == 2:
+            buttons = ['next']
+        elif self.agent.phase == 3:
+            buttons = ['next']
+        elif self.agent.phase == 4:
+            buttons = ['start', 'pause', 'next', 'good', 'bad']
+        elif self.agent.phase == 5:
+            buttons = ['left', 'right', 'up', 'down','start', 'pause', 'next', 'Demonstration', 'Stop Demonstration']
+        else:
+            buttons = self.config.get('ui', defaultUI)
+
+
         try:
-            self.pipe.send(json.dumps({'UI': self.config.get('ui', defaultUI)}))
+            #self.pipe.send(json.dumps({'UI': defaultUI}))
+            self.pipe.send(json.dumps({'UI': buttons}))
         except:
             raise TypeError("Render Dictionary is not JSON serializable")
 
@@ -325,3 +419,7 @@ class Trial():
         self.filename = filename
         self.path = path
         
+
+
+if __name__ == "__main__":
+    pass

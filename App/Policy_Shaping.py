@@ -133,3 +133,5 @@ class PSAgent:
         prob = np.array(prob)
         return np.random.choice(np.flatnonzero(prob == prob.max()))
 
+if __name__ == "__main__":
+    pass

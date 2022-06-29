@@ -4,6 +4,8 @@ from multiprocessing import Process, Pipe
 from s3upload import Uploader
 import logging
 import os
+from multiprocessing import freeze_support
+
 
 #os.add_dll_directory("c:/Users/rajbh/Documents/GitHub/HIPPO_Gym/env/lib/site-packages/atari_py/ale_interface/ale_c.dll")
 
@@ -21,6 +23,7 @@ def main():
     global PORT
     global devEnv
     devEnv = True
+    freeze_support()
     start_server = websockets.serve(handler, ADDRESS, PORT)
     # if len(sys.argv) > 1 and sys.argv[1] == 'dev':
     #      start_server = websockets.serve(handler, ADDRESS, PORT)

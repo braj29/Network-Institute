@@ -23,7 +23,8 @@ from griddly import gd
 #from gym.utils import play
 #import wandb
 
-
+from time import perf_counter
+from time_util import ElapsedTimeThread
 
 #This is the code for tile coding features
 basehash = hash
@@ -42,7 +43,7 @@ of these functions, adapt as required for individual research goals.
 import Policy_Shaping as PS
 from Policy_Shaping_copy import get_state
 import math
-
+from Test5 import state_pos
 
 class LevelGenerator:
 
@@ -88,7 +89,7 @@ class ClustersLevelGenerator(LevelGenerator):
 
         return map
 
-    def generate(self):
+    def generate(self, pos):
         map = np.chararray((self._width, self._height), itemsize=2)
         map[:] = '.'
         # print(map)
@@ -130,8 +131,8 @@ class ClustersLevelGenerator(LevelGenerator):
         #print(indices)
 
         # Place Agent
-        agent_location_idx = np.random.choice(indices)
-        level_string = addChar(level_string, "A", agent_location_idx)
+        #agent_location_idx = np.random.choice(indices)
+        level_string = addChar(level_string, "A", pos)
         # print(level_string)
         # agent_location = possible_locations[agent_location_idx]
         # print(agent_location_idx)
@@ -208,13 +209,15 @@ class Agent():
             'height': 14
         }
 
-        level_generator = ClustersLevelGenerator(self.config)
-        self.total_reward = 0
-        self.demo_steps = 10
-        self.feedback_steps = 10
+        self.phase = 1
+        self.total_reward = 100
+        self.demo_steps = 100
+        self.feedback_steps = 100
         self.demo = False
-        self.env = gym.make("GDY-Labyrinth-v0", player_observer_type=gd.ObserverType.VECTOR, level = 2, max_steps = 1000)
-        #self.env.reset(level_string=level_generator.generate())
+        self.env = gym.make("GDY-Labyrinth-v0", player_observer_type=gd.ObserverType.VECTOR, level = 0, max_steps = 1000)
+        #state_position = state_pos()
+        #print(state_position)
+        #self.env.reset(level_string=level_generator.generate(state_position))
         self.env.reset()
         self.action_space = self.env.action_space.n
         # print(action_space)
@@ -227,6 +230,9 @@ class Agent():
             self.PolSh = PS.PSAgent(self.action_space, self.observation_space)
             self.Qagent = QL.QLAgent(self.action_space, self.observation_space, epsilon=0.2, mini_epsilon=0.01,
                                      decay=0.999)
+
+        self.elaps_time = ElapsedTimeThread()
+        #self.elaps_time.start()
 
         return
 
@@ -243,7 +249,7 @@ class Agent():
               change contents of dict as desired, but return must be type dict.
         '''
 
-        if self.demo == False:
+        if self.demo == False and self.phase not in [1,2]:
             if self.time_step == 0:
                 self.state =self.first_state
                 time.sleep(1.5)
@@ -279,33 +285,47 @@ class Agent():
             feedback = update_feedback(human_feedback)
 
             next_state, reward, done, info = self.env.step(action)
-            if action != 0 and self.feedback_steps > 0:
-                self.PolSh.learning(action, feedback, self.last_state, next_state)
-                self.Qagent.learning(action, reward, self.last_state, next_state)
-                if feedback != 0:
-                    self.feedback_steps -= 1
+            if self.phase > 5:
+                if action != 0 and self.feedback_steps > 0:
+                    self.PolSh.learning(action, feedback, self.last_state, next_state)
+                    self.Qagent.learning(action, reward, self.last_state, next_state)
+                    if feedback != 0:
+                        self.feedback_steps -= 1
 
             self.state = next_state
             self.total_reward += reward
+            if done and self.phase < 6:
+                self.phase+=1
+                self.reset()
 
-        elif self.demo == True:
+
+
+        elif self.demo == True or self.phase in [1,2]:
             if self.demo_steps == 0:
                 self.demo = False
             feedback_demo = 1
-            self.last_state = np.copy(self.state)
+            if self.phase ==1:
+                self.last_state = self.first_state
+            else:
+                self.last_state = np.copy(self.state)
             next_state, reward, done, info = self.env.step(human_action)
             #PSA.next_state = next_state
-            if human_action != 0 and self.demo_steps > 0:
-               self.PolSh.learning(human_action, feedback_demo, self.last_state, next_state)
-               self.Qagent.learning(human_action, reward, self.last_state, next_state)
-               #print(get_state(self.last_state), get_state(self.state))
-               self.demo_steps -= 1
+            if self.phase > 5:
+                if human_action != 0 and self.demo_steps > 0:
+                   self.PolSh.learning(human_action, feedback_demo, self.last_state, next_state)
+                   self.Qagent.learning(human_action, reward, self.last_state, next_state)
+                   #print(get_state(self.last_state), get_state(self.state))
+                   self.demo_steps -= 1
             action = human_action
             #PSA.state = next_state
             self.state = next_state
 
             self.total_reward += reward
             if done == True:
+                if self.phase < 6:
+                    self.phase += 1
+                    self.reset()
+
                 self.demo = False
 
         envState = {'observation': next_state, 'reward': reward, 'done': done, 'info': info, 'agentAction': action}
@@ -337,13 +357,27 @@ class Agent():
         if self.PS:
             self.cnt = 0
             self.time_step = 0
-            #level_generator = ClustersLevelGenerator(self.config)
-            #self.first_state = self.env.reset(level_string=level_generator.generate())
-            self.first_state = self.env.reset()
+            if self.phase in [3,6,7]:
+                level_generator = ClustersLevelGenerator(self.config)
+                state_position = state_pos()
+                self.first_state = self.env.reset(level_string=level_generator.generate(state_position))
+            # print(state_position)
+            #self.env.reset(level_string=level_generator.generate(state_position))
+            elif self.phase in [1,2,4,5]:
+                self.first_state = self.env.reset()
+            else:
+                level_generator = ClustersLevelGenerator(self.config)
+                state_position = state_pos()
+                self.first_state = self.env.reset(level_string=level_generator.generate(state_position))
+
             #state = self.PolSh.first_state
+            #self.time_start = perf_counter()
+
         else:
             #level_generator = ClustersLevelGenerator(self.config)
             #self.env.reset(level_string=level_generator.generate())
+            self.elaps_time.stop()
+            self.elaps_time.join
             self.env.reset()
 
     def close(self):
@@ -357,6 +391,8 @@ class Agent():
             No Return
         '''
         self.env.close()
+        #self.elaps_time.stop()
+        #self.elaps_time.join()
         
 
 if __name__ == '__main__':

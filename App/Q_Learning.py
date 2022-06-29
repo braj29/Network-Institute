@@ -117,3 +117,5 @@ class QLAgent:
             return np.random.choice(np.flatnonzero(prob == prob.max()))
 
 
+if __name__ == "__main__":
+    pass

@@ -1,5 +1,5 @@
 trial:
-  actionBufferLifespan: 1
+  actionBufferLifespan: 10
   actionSpace:
   - noop
   - left
@@ -8,7 +8,7 @@ trial:
   - down
   allowFrameRateChange: true
   bucket: null
-  dataFile: episode
+  dataFile: trial
   frameRateStepSize: 5
   game: GDY-Labyrinth-v0
   maxEpisodes: 20
@@ -32,3 +32,4 @@ trial:
   - fpsDown
   - demonstration
   - stop demonstration
+  - Next
